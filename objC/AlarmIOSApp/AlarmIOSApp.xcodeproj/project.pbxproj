@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25ABE5A31E0A705400E86BAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25ABE5A21E0A705400E86BAE /* main.m */; };
+		25ABE5A61E0A705400E86BAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25ABE5A51E0A705400E86BAE /* AppDelegate.m */; };
+		25ABE5A91E0A705400E86BAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25ABE5A81E0A705400E86BAE /* ViewController.m */; };
+		25ABE5AC1E0A705400E86BAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25ABE5AA1E0A705400E86BAE /* Main.storyboard */; };
+		25ABE5AE1E0A705400E86BAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25ABE5AD1E0A705400E86BAE /* Assets.xcassets */; };
+		25ABE5B11E0A705400E86BAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25ABE5AF1E0A705400E86BAE /* LaunchScreen.storyboard */; };
+		25ABE5BA1E0A71C800E86BAE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25ABE5B91E0A71C800E86BAE /* MainViewController.m */; };
+		25ABE5C01E0A754000E86BAE /* MainClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25ABE5BF1E0A754000E86BAE /* MainClockView.m */; };
+		25ABE5C31E0A7DF400E86BAE /* SetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25ABE5C21E0A7DF400E86BAE /* SetupViewController.m */; };
+		25ABE5C51E0B66C700E86BAE /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 25ABE5C41E0B66C700E86BAE /* clock.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25ABE59E1E0A705400E86BAE /* AlarmIOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmIOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25ABE5A21E0A705400E86BAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25ABE5A41E0A705400E86BAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25ABE5A51E0A705400E86BAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25ABE5A71E0A705400E86BAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		25ABE5A81E0A705400E86BAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		25ABE5AB1E0A705400E86BAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25ABE5AD1E0A705400E86BAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25ABE5B01E0A705400E86BAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25ABE5B21E0A705400E86BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25ABE5B81E0A71C800E86BAE /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		25ABE5B91E0A71C800E86BAE /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		25ABE5BE1E0A754000E86BAE /* MainClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainClockView.h; sourceTree = "<group>"; };
+		25ABE5BF1E0A754000E86BAE /* MainClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainClockView.m; sourceTree = "<group>"; };
+		25ABE5C11E0A7DF400E86BAE /* SetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupViewController.h; sourceTree = "<group>"; };
+		25ABE5C21E0A7DF400E86BAE /* SetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupViewController.m; sourceTree = "<group>"; };
+		25ABE5C41E0B66C700E86BAE /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25ABE59B1E0A705300E86BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25ABE5951E0A705300E86BAE = {
+			isa = PBXGroup;
+			children = (
+				25ABE5A01E0A705400E86BAE /* AlarmIOSApp */,
+				25ABE59F1E0A705400E86BAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25ABE59F1E0A705400E86BAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25ABE59E1E0A705400E86BAE /* AlarmIOSApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25ABE5A01E0A705400E86BAE /* AlarmIOSApp */ = {
+			isa = PBXGroup;
+			children = (
+				25ABE5A41E0A705400E86BAE /* AppDelegate.h */,
+				25ABE5A51E0A705400E86BAE /* AppDelegate.m */,
+				25ABE5A71E0A705400E86BAE /* ViewController.h */,
+				25ABE5A81E0A705400E86BAE /* ViewController.m */,
+				25ABE5B81E0A71C800E86BAE /* MainViewController.h */,
+				25ABE5B91E0A71C800E86BAE /* MainViewController.m */,
+				25ABE5C11E0A7DF400E86BAE /* SetupViewController.h */,
+				25ABE5C21E0A7DF400E86BAE /* SetupViewController.m */,
+				25ABE5BE1E0A754000E86BAE /* MainClockView.h */,
+				25ABE5BF1E0A754000E86BAE /* MainClockView.m */,
+				25ABE5AA1E0A705400E86BAE /* Main.storyboard */,
+				25ABE5AD1E0A705400E86BAE /* Assets.xcassets */,
+				25ABE5AF1E0A705400E86BAE /* LaunchScreen.storyboard */,
+				25ABE5B21E0A705400E86BAE /* Info.plist */,
+				25ABE5C41E0B66C700E86BAE /* clock.png */,
+				25ABE5A11E0A705400E86BAE /* Supporting Files */,
+			);
+			path = AlarmIOSApp;
+			sourceTree = "<group>";
+		};
+		25ABE5A11E0A705400E86BAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25ABE5A21E0A705400E86BAE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25ABE59D1E0A705300E86BAE /* AlarmIOSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25ABE5B51E0A705400E86BAE /* Build configuration list for PBXNativeTarget "AlarmIOSApp" */;
+			buildPhases = (
+				25ABE59A1E0A705300E86BAE /* Sources */,
+				25ABE59B1E0A705300E86BAE /* Frameworks */,
+				25ABE59C1E0A705300E86BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlarmIOSApp;
+			productName = AlarmIOSApp;
+			productReference = 25ABE59E1E0A705400E86BAE /* AlarmIOSApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25ABE5961E0A705300E86BAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = HSY;
+				TargetAttributes = {
+					25ABE59D1E0A705300E86BAE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WZ8L46VSE2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 25ABE5991E0A705300E86BAE /* Build configuration list for PBXProject "AlarmIOSApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25ABE5951E0A705300E86BAE;
+			productRefGroup = 25ABE59F1E0A705400E86BAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25ABE59D1E0A705300E86BAE /* AlarmIOSApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25ABE59C1E0A705300E86BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25ABE5C51E0B66C700E86BAE /* clock.png in Resources */,
+				25ABE5B11E0A705400E86BAE /* LaunchScreen.storyboard in Resources */,
+				25ABE5AE1E0A705400E86BAE /* Assets.xcassets in Resources */,
+				25ABE5AC1E0A705400E86BAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25ABE59A1E0A705300E86BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25ABE5A91E0A705400E86BAE /* ViewController.m in Sources */,
+				25ABE5A61E0A705400E86BAE /* AppDelegate.m in Sources */,
+				25ABE5C01E0A754000E86BAE /* MainClockView.m in Sources */,
+				25ABE5A31E0A705400E86BAE /* main.m in Sources */,
+				25ABE5C31E0A7DF400E86BAE /* SetupViewController.m in Sources */,
+				25ABE5BA1E0A71C800E86BAE /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25ABE5AA1E0A705400E86BAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25ABE5AB1E0A705400E86BAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25ABE5AF1E0A705400E86BAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25ABE5B01E0A705400E86BAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25ABE5B31E0A705400E86BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25ABE5B41E0A705400E86BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25ABE5B61E0A705400E86BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WZ8L46VSE2;
+				INFOPLIST_FILE = AlarmIOSApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HeoSeoYeong.AlarmIOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25ABE5B71E0A705400E86BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WZ8L46VSE2;
+				INFOPLIST_FILE = AlarmIOSApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HeoSeoYeong.AlarmIOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25ABE5991E0A705300E86BAE /* Build configuration list for PBXProject "AlarmIOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25ABE5B31E0A705400E86BAE /* Debug */,
+				25ABE5B41E0A705400E86BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25ABE5B51E0A705400E86BAE /* Build configuration list for PBXNativeTarget "AlarmIOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25ABE5B61E0A705400E86BAE /* Debug */,
+				25ABE5B71E0A705400E86BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25ABE5961E0A705300E86BAE /* Project object */;
+}

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_gravity="center"
+            android:src="@drawable/porifile_img"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <Button
+            android:text="로그아웃"
+            android:textColor="#111111"
+            android:layout_marginTop="170dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/logout_btn"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:background="#E0FFFF"/>
+
+    </FrameLayout>
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#E0FFFF"/>
+
+
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="#111111"
+            android:layout_marginLeft="50dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="닉네임"/>
+
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="0dp" />
+
+        <TextView
+            android:textColor="#111111"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textName" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="#111111"
+            android:layout_marginLeft="50dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="성별"/>
+
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="0dp" />
+
+        <TextView
+            android:textColor="#111111"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textMan" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="#111111"
+            android:layout_marginLeft="50dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="생일"/>
+
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="0dp" />
+
+        <TextView
+            android:textColor="#111111"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textBirth" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="#111111"
+            android:layout_marginLeft="50dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="나이"/>
+
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="0dp" />
+
+        <TextView
+            android:textColor="#111111"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textAge" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="#111111"
+            android:layout_marginLeft="50dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="몸무게"/>
+
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="0dp" />
+
+        <TextView
+            android:textColor="#111111"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textWeight" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="#111111"
+            android:layout_marginLeft="50dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="키"/>
+
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="0dp" />
+
+        <TextView
+            android:textColor="#111111"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textHeight" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="#111111"
+            android:layout_marginLeft="50dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="혈액"/>
+
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="0dp" />
+
+        <TextView
+            android:textColor="#111111"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textBlood" />
+
+    </LinearLayout>
+
+</LinearLayout>

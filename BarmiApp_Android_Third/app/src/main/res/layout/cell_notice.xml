@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:layout_marginLeft="10dp">
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:id="@+id/notice_cell_title"
+            android:textColor="#111111"
+            android:text="제목"
+            android:layout_weight="2"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:id="@+id/notice_cell_name"
+            android:textColor="#111111"
+            android:text="이름"
+            android:layout_weight="1"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/notice_cell_date"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="#111111"
+            android:text="날짜"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:background="#E0FFFF"
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+</LinearLayout>

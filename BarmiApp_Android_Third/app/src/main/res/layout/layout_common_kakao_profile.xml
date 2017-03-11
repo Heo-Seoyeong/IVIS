@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/kakao_user_profile_imageView"
+            android:background="@drawable/porifile_img"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/profile_description_realname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="이름란"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="6pt"
+        android:textColor="@color/cwnu_main_color9" />
+
+    <ImageView
+        android:background="#111111"
+        android:layout_width="37dp"
+        android:layout_height="6dp" />
+\
+
+</LinearLayout>

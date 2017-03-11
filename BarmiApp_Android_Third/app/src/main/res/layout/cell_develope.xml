@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="170dp" />
+    
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/txtIntro"
+        android:text="어플리케이션 개발"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="#111111"/>
+
+    <TextView
+        android:textColor="#111111"
+        android:layout_marginTop="5dp"
+        android:text="창원대학교 정보통신공학과"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:textColor="#111111"
+        android:layout_marginTop="5dp"
+        android:text="Mobile-X 동아리"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+    
+    <TextView
+        android:textColor="#111111"
+        android:layout_marginTop="5dp"
+        android:text="20123259 허서영"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+    
+
+
+</LinearLayout>

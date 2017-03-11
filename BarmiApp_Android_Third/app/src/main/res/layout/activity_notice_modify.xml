@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".notice.NoticeModifyActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#66bd61"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <ScrollView
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent" >
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:background="#ffffff"
+            android:layout_height="match_parent"
+            android:id="@+id/activity_input_view"
+            android:layout_marginTop="?attr/actionBarSize">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <ImageButton
+                android:id="@+id/photo"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:onClick="onClick"
+                android:scaleType="fitXY"
+                android:background="@drawable/content_flie_btn" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textColor="#0000FF"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="순번"
+                android:id="@+id/textView"
+                android:textSize="18sp"  />
+
+            <EditText
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/textlines"
+                android:textColor="#111111"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:id="@+id/id"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textColor="#0000FF"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="제목"
+                android:id="@+id/textView2"
+                android:textSize="18sp"  />
+
+            <EditText
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/textlines"
+                android:textColor="#111111"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:id="@+id/title"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textColor="#0000FF"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="글쓴이"
+                android:id="@+id/textView3"
+                android:textSize="18sp"  />
+
+            <EditText
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/textlines"
+                android:textColor="#111111"
+                android:text="허서영"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:id="@+id/user"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textColor="#0000FF"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="내용"
+                android:id="@+id/textView4"
+                android:textSize="18sp" />
+
+            <EditText
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/textlines"
+                android:textColor="#111111"
+                android:gravity="top"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/cont"
+                android:textSize="14sp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Insert"
+                android:onClick="insert"
+                android:id="@+id/button" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

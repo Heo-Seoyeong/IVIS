@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#66bd61"
+    android:weightSum="2">
+
+    <ImageButton
+        android:padding="5dp"
+        android:src="@drawable/img_url"
+        android:background="#66bd61"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:onClick="webViewMove"/>
+
+    <ViewFlipper
+        android:id="@+id/flipper"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/rec_image10">
+    </ViewFlipper>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="17dp" />
+
+    
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textColor="#FFFFFF"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="[오늘의 레시피]"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="계란 요리"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:gravity="center_vertical" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="recipe_imgae">
+        <item>@drawable/rec_image1</item>
+        <item>@drawable/rec_image2</item>
+        <item>@drawable/rec_image3</item>
+        <item>@drawable/rec_image4</item>
+        <item>@drawable/rec_image5</item>
+        <item>@drawable/rec_image6</item>
+        <item>@drawable/rec_image7</item>
+        <item>@drawable/rec_image8</item>
+        <item>@drawable/rec_image9</item>
+        <item>@drawable/rec_image10</item>
+    </array>
+
+</resources>
