@@ -82,11 +82,19 @@ public class RecentActivity extends Fragment {
 
                 BufferedReader bufferedReader = null;
                 try {
+                    Log.d("111","2set");
                     URL url = new URL(uri);
-                    HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+                    HttpURLConnection con = (HttpURLConnection) url.openConnection();
+                    Log.d("111", String.valueOf(url));
                     StringBuilder sb = new StringBuilder();
+                    Log.d("111","2222");
+                    Log.d("111", String.valueOf(sb));
+                    Log.d("111","3333");
+//                    URL url = new URL(uri);
+//                    HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+//                    StringBuilder sb = new StringBuilder();
 
-                    bufferedReader = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+                    bufferedReader = new BufferedReader(new InputStreamReader(con.getInputStream()));
 
                     String json;
                     while ((json = bufferedReader.readLine()) != null) {
